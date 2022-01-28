@@ -6,4 +6,64 @@ body{
     background-image: url('../images/plant\ back\ 4.jpeg');
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
+    font-family: 'Dosis';
+}
+.directionals{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    left: 8%;
+    top: -2%;
+    color: bisque;
+    font-size: 1.8em;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: bisque;
+}
+.hSmall, .aSmall, .cSmall, .pSmall{
+    font-size: .5em;
+}
+
+.aboutBox{
+    margin-top: 8%; 
+    margin-left: 5%;
+    border: solid 3px #fff8f1;
+    border-radius: 20px;
+    height: 70vh;
+    width: 37%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    background-color: #fff8f1;
+    box-shadow: 8px 7px #e3d4d4;
+    
+    
+}
+img{
+    width: 175px;
+    height: 230px;
+    float: left;
+    padding-right: 4%;
+    padding-bottom: 3%;
+    border-radius: 50%;
+}
+h1{
+    
+    color: #2F2C2C;
+}
+p{
+    color: #2F2C2C;
+    font-size: 1.1em;
+    text-align: justify;
+    padding-top: 3%;
+    
+}
+.loveText{
+    color: tomato;
 }
