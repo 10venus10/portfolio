@@ -6,4 +6,95 @@ body{
     background-image: url('../images/plant\ back\ 4.jpeg');
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
+    font-family: 'Dosis';
+}
+
+.directionals{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    left: 12%;
+    top: -2%;
+    color: bisque;
+    font-size: 1.8em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: bisque;
+}
+a:hover{
+    color: indianred;
+}
+.hSmall, .aSmall, .cSmall, .pSmall{
+    font-size: .5em;
+}
+.skillsBox, .projectsBox{
+    background-color: white;
+    border-radius: 20px;
+    background-color: #fff8f1;
+    box-shadow: 6px 6px #e3d4d4;
+}
+
+.skillsBox{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 140px;
+    padding-bottom: 2%;
+}
+
+.skillsBox h1{
+    opacity: .8;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    opacity: .8;
+}
+.iconBoxes{
+    display: flex;
+    gap: 20px;
+}
+
+.projectsBox{
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    width: 550px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+.projectsBox H1{
+    opacity: .8;
+}
+.projectPicsBoxes{
+    display: flex;
+    gap: 30px;
+}
+
+.projectPics{
+    width: 225px;
+    Height: 150px;
+    background-color: white;
+    border-radius: 20px;
+    background-color: #fff8f1;
+    box-shadow: 3px 3px 3px 3px hsl(0, 3%, 55%);
+    transition: transform .2s;
+}
+.projectPics:hover{
+    transform: scale(1.3);
+    box-shadow: 6px 6px 6px 6px hsl(0, 3%, 55%);
 }

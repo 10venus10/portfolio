@@ -34,9 +34,6 @@ a:hover{
 .hSmall, .aSmall, .cSmall, .pSmall{
     font-size: .5em;
 }
-/*.homeLink:hover, .aboutLink:hover, .contactLink:hover, .projectsLink:hover{
-    color: indianred;
-}*/
 
 .heading{
     position: absolute;
@@ -100,8 +97,8 @@ img{
 }
 
 .liBox:hover{
-    background-color: indianred;
+    background-color: #f19c9cec;
 }
 .ghBox:hover{
-    background-color: indianred;
+    background-color: #f19c9cec;
 }
